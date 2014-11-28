@@ -1,6 +1,6 @@
-# Cordova Browserify Bootstrap
+# Cordova Browserify Famous Bootstrap
 
-Cordova启动项目，整合 [Grunt](http://gruntjs.com), [Browserify](http://browserify.org), [Coffeescript](http://coffeescript.org), [Less](http::/lesscss.org)
+Cordova启动项目，整合 [Grunt](http://gruntjs.com), [Browserify](http://browserify.org), [Coffeescript](http://coffeescript.org), [Less](http://lesscss.org), [Famo.us](http://famo.us)
 
 ## 开发环境搭建
 

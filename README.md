@@ -13,18 +13,21 @@ Cordova启动项目，整合 [Grunt](http://gruntjs.com), [Browserify](http://br
 3. 配置 Eclipse：http://www.cs.dartmouth.edu/~cs5/install/eclipse-osx
 4. [在 Eclipse 中安装 ADT(Android Development Tools) 插件](http://developer.android.com/sdk/installing/installing-adt.html)，安装时指定 sdk 目录为`~/android-sdks`
 5. 在`.bashrc`或`.zshrc`中加入：
-    ```
+
+    ```shell
     export ANDROID_HOME=~/android-sdks
     export PATH="$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$ANDROID_HOME/build-tools:$PATH"
     ```
 6. 在命令行中：
-    ```
+
+    ```shell
     . .bashrc # 或者 . .zshrc
     ```
 7. 这时候在终端执行：`android` 可以打开 Android SDK Manager；在 Android SDK Manager 中安装 Android 4.4.2(API 19)，同时安装 Android SDK Build-tools
 8. `brew install ant` 安装ant编译工具
 9. 安装`Intel x86 Emulator Accelerator(HAXM installer)`：
-  ```
+
+  ```shell
   cd ANDROID_HOME/extras/intel/Hardware_Accelerated_Execution_Manager
   open .
   ```
@@ -65,7 +68,8 @@ Makefile
 对于在开发过程中在本地浏览器进行快速测试，使用以下步骤，来完成编译资源和测试的流水线工作：
 
 * 在命令行中：
-  ```
+
+  ```shell
   $ grunt devwatch # Recompile all assets and watch it
   $ grunt serve # Start ripple. Check it on http://localhost:1337/
   ```
@@ -74,7 +78,7 @@ Makefile
 
 ### 技巧
 
-* 典型的开发流程是在本地利用 ripple 进行开发，使用模拟器进行测试，最后在真机上测试。*必须* 要在发布应用前在真机上进行测试。
+* 典型的开发流程是在本地利用 ripple 进行开发，使用模拟器进行测试，最后在真机上测试。**必须** 要在发布应用前在真机上进行测试。
 
 ### gotchas
 
